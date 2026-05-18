@@ -2,11 +2,11 @@
 
 Repositório com exercícios de PHP com Programação Orientada a Objetos (POO) desenvolvidos durante o curso do **Curso em Vídeo**.
 
-##Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto contém uma coleção de exercícios práticos que cobrem os principais conceitos de POO em PHP, desde conceitos básicos até tópicos mais avançados.
 
-##Tópicos Abordados
+## Tópicos Abordados
 
 Os exercícios abordam os seguintes temas:
 
@@ -19,7 +19,7 @@ Os exercícios abordam os seguintes temas:
 - **Relacionamentos**: Associações entre objetos
 - **Objetos Compostos**: Estruturas mais complexas
 
-##Estrutura dos Exercícios
+## Estrutura dos Exercícios
 
 Cada exercício está organizado em sua própria pasta dentro do diretório `EXERCICIOS/`, seguindo o padrão de nomenclatura:
 
@@ -42,11 +42,11 @@ EXERCICIOS/
 └── ex015-Exercicio-Final02/
 ```
 
-##Como Executar
+## Como Executar
 
 Para executar os exercícios, você precisará de um servidor web com PHP instalado. Recomenda-se usar o **XAMPP**, **WAMP**, **MAMP** ou o servidor built-in do PHP.
 
-###Usando o Servidor Built-in do PHP
+### Usando o Servidor Built-in do PHP
 
 1. Acesse o diretório do projeto no terminal
 2. Execute o comando:
