@@ -1,66 +1,79 @@
-# PHPPOO-Cursoemvideo
+# PHP OOP Course Exercises
 
-Repositório com exercícios de PHP com Programação Orientada a Objetos (POO) desenvolvidos durante o curso do **Curso em Vídeo**.
+> PHP OOP exercises covering classes, inheritance, encapsulation, and polymorphism
 
-## Sobre o Projeto
+![Badge](https://img.shields.io/badge/PHP-777BB4?style=flat-square\&logo=php\&logoColor=white)
+![Badge](https://img.shields.io/badge/OOP-5C2D91?style=flat-square\&logo=php\&logoColor=white)
+![Badge](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square\&logo=xampp\&logoColor=white)
+![Badge](https://img.shields.io/badge/License-MIT-yellow?style=flat-square\&logo=open-source-initiative\&logoColor=white)
 
-Este projeto contém uma coleção de exercícios práticos que cobrem os principais conceitos de POO em PHP, desde conceitos básicos até tópicos mais avançados.
+---
 
-## Tópicos Abordados
+## 📌 Overview
 
-Os exercícios abordam os seguintes temas:
+This repository contains practical exercises developed during the PHP Object-Oriented Programming course from Curso em Vídeo.
+The project focuses on the core concepts of OOP in PHP, including encapsulation, inheritance, polymorphism, object relationships, and class structures.
+It was created as a study repository to reinforce object-oriented programming concepts through hands-on exercises and examples.
 
-- **Classes e Objetos**: Criação e manipulação de objetos em PHP
-- **Visibilidade**: Modificadores de acesso (public, private, protected)
-- **Métodos**: Construtores, getters e setters
-- **Encapsulamento**: Proteção e organização do código
-- **Herança**: Reutilização de código entre classes
-- **Polimorfismo**: Sobrescrita de métodos
-- **Relacionamentos**: Associações entre objetos
-- **Objetos Compostos**: Estruturas mais complexas
+## 🛠️ Technologies
 
-## Estrutura dos Exercícios
+* **PHP** — Main programming language used for the exercises
+* **Object-Oriented Programming** — Programming paradigm used throughout the project
+* **XAMPP** — Recommended local development environment for running the exercises
 
-Cada exercício está organizado em sua própria pasta dentro do diretório `EXERCICIOS/`, seguindo o padrão de nomenclatura:
+## 📁 Project Structure
 
+```bash id="k5r2na"
+.
+├── EXERCICIOS/                          # Main exercises directory
+│   ├── ex001-Primeiro-Exercicio/        # First OOP exercise
+│   ├── ex002-Classes&Objetos/           # Classes and objects
+│   ├── ex003-Visibilidade/              # Access modifiers
+│   ├── ex004-Metodos/                   # Methods and constructors
+│   ├── ex005B-Objetos/                  # Object manipulation
+│   ├── ex006-Encapsulamento/            # Encapsulation concepts
+│   ├── ex007-Objetos-Compostos/         # Composite objects
+│   ├── ex008-Relacionamento/            # Object relationships
+│   ├── ex009-Exercicios/                # Additional exercises
+│   ├── ex010-Herança-Parte01/           # Inheritance concepts
+│   ├── ex011-Herança-Parte02/           # Advanced inheritance
+│   ├── ex012-Polimorfismo-Parte01/      # Polymorphism basics
+│   ├── ex013-Polimorfismo-Parte02/      # Advanced polymorphism
+│   ├── ex014-Exercicio-Final01/         # Final exercise part 1
+│   └── ex015-Exercicio-Final02/         # Final exercise part 2
+│
+├── README.md                            # Project documentation
+└── LICENSE                              # Project license
 ```
-EXERCICIOS/
-├── ex001-Primeiro-Exercicio/
-├── ex002-Classes&Objetos/
-├── ex003-Visibilidade/
-├── ex004-Metodos/
-├── ex005B-Objetos/
-├── ex006-Encapsulamento/
-├── ex007-Objetos-Compostos/
-├── ex008-Relacionamento/
-├── ex009-Exercicios/
-├── ex010-Herança-Parte01/
-├── ex011-Herança-Parte02/
-├── ex012-Polimorfismo-Parte01/
-├── ex013-Polimorfismo-Parte02/
-├── ex014-Exercicio-Final01/
-└── ex015-Exercicio-Final02/
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash id="f9o3tm"
+git clone https://github.com/LuizBMJ/php-oop-course-exercises.git
 ```
 
-## Como Executar
+Navigate to the project folder:
 
-Para executar os exercícios, você precisará de um servidor web com PHP instalado. Recomenda-se usar o **XAMPP**, **WAMP**, **MAMP** ou o servidor built-in do PHP.
+```bash id="z7d1vp"
+cd php-oop-course-exercises
+```
 
-### Usando o Servidor Built-in do PHP
+Run the PHP built-in server:
 
-1. Acesse o diretório do projeto no terminal
-2. Execute o comando:
-
-```bash
+```bash id="y2n8ql"
 php -S localhost:8000
 ```
 
-3. Abra o navegador e accesse `http://localhost:8000/EXERCICIOS/nome-do-exercicio/index.php`
+Open your browser and access an exercise:
 
-### Alternativamente
+```text id="w6x5ha"
+http://localhost:8000/EXERCICIOS/ex001-Primeiro-Exercicio/index.php
+```
 
-Basta copiar os arquivos do projeto para a pasta pública do servidor web (como `htdocs` no XAMPP) e acessar pelo navegador.
+Alternatively, you can place the project inside your local web server directory, such as `htdocs` in XAMPP, and access it through your browser.
 
-## Licença
+## 📄 License
 
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
